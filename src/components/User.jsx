@@ -1,13 +1,9 @@
-function Tweet({ tweet }) {
+function Tweet({ name, handle }) {
   return (
-    <div className="top">
-      <span className="user">
-        <span className="name">{tweet.user.name}</span>
-        <span className="handle">@{tweet.user.handle}</span>
-      </span>
-
-      <span className="timestamp">{tweet.timestamp}</span>
-    </div>
+    <span className="user">
+      <span className="name">{name}</span>
+      <span className="handle">@{handle}</span>
+    </span>
   );
 }
 

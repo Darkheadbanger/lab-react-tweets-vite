@@ -1,5 +1,5 @@
-function Tweet({ tweet }) {
-  return <span className="timestamp">{tweet.timestamp}</span>;
+function Tweet({ time }) {
+  return <span className="timestamp">{time}</span>;
 }
 
 export default Tweet;

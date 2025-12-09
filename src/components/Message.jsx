@@ -1,5 +1,5 @@
-function Message({ tweet }) {
-  return <p className="message">{tweet.message} </p>;
+function Message({ message }) {
+  return <p className="message">{message} </p>;
 }
 
 export default Message;
