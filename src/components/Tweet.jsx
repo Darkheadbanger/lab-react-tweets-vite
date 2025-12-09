@@ -2,7 +2,7 @@ function Tweet({ tweet }) {
   return (
     <div className="tweet">
       <img src={tweet.user.image} className="profile" alt="profile" />
-
+      {/* <Actions /> */}
       <div className="body">
         <div className="top">
           <span className="user">
